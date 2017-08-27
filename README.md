@@ -18,7 +18,7 @@ The dimension of the skipgram vectors is 300 with window 6 (vocab min count = 10
 * [Italy](https://drive.google.com/drive/folders/0B13VF_-CUsHPUU85bjRSXzBKNFE?usp=sharing)
 
 ## Example
-Emojis can be triky to handle, they are composed of one or more unicode character ([full list](http://unicode.org/emoji/charts/full-emoji-list.html)). This is a simple use case with gensim:
+Emojis can be tricky to handle, they are composed of one or more unicode character ([full list](http://unicode.org/emoji/charts/full-emoji-list.html)). This is a simple use case with gensim:
 
 ```python
 from gensim.models.keyedvectors import KeyedVectors
