@@ -36,7 +36,7 @@ Also, have a look at [this library](https://github.com/fvancesco/emoji) if you h
 
 ## Citation
 
-All these materials are freely available under [Creative Commons CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), using the reference below for attribution.
+The provided models are freely available under [Creative Commons CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), using the reference below for attribution.
 
 ```bash
 @inproceedings{barbieri2016cosmopolitan,
