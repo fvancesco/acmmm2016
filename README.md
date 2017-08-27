@@ -10,7 +10,7 @@ In this paper we compare the meaning and the usage of emojis across different la
 ![alt text](https://raw.githubusercontent.com/fvancesco/acmmm2016/master/acmmm2016.png)
 
 ## Download Embeddings
-The dimension of the skipgram vectors is 300 with window 6 (vocab min count = 10). We trained the embedding using all the tokens words, emojis and punctuation (only links are removed). The dataset used was of 20M geolocalized tweets posted from October 2015 to February 2017. In each link you find the lowercased and not lowercased version.
+The dimension of the skipgram vectors is 300 with window 6 (vocab min count = 10). We trained the embedding using all the tokens, emojis and punctuation included (links are removed and user anonymized with "@user"). The dataset used was of 20M geolocalized tweets posted from October 2015 to February 2017. In each link you find the lowercased and not lowercased version.
 
 * [USA](https://drive.google.com/drive/folders/0B13VF_-CUsHPd3FqdVJ2c1ZJaXc?usp=sharing)
 * [United Kingdom](https://drive.google.com/drive/folders/0B13VF_-CUsHPZkZnYXduYTA5VUU?usp=sharing)
@@ -22,6 +22,7 @@ Emojis can be triky to handle, they are composed of one or more unicode characte
 
 ```python
 from gensim.models.keyedvectors import KeyedVectors
+#loading the model can take a minute or so
 model = KeyedVectors.load_word2vec_format('model_swm_300-6-10-low.w2v', binary=False)
 c = "👍"
 nn = model.most_similar(positive=[c.decode('utf-8')])
@@ -35,7 +36,7 @@ Also, have a look at [this library](https://github.com/fvancesco/emoji) if you h
 
 ## Citation
 
-All these materials are frely available under [Creative Commons CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), using the reference below for the attribution.
+All these materials are freely available under [Creative Commons CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), using the reference below for attribution.
 
 ```bash
 @inproceedings{barbieri2016cosmopolitan,
