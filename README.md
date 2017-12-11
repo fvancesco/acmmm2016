@@ -14,7 +14,7 @@ The dimension of the skipgram vectors is 300 with window 6 (vocab min count = 10
 
 * [USA](https://drive.google.com/drive/folders/0B13VF_-CUsHPd3FqdVJ2c1ZJaXc?usp=sharing)
 * [United Kingdom](https://drive.google.com/drive/folders/0B13VF_-CUsHPZkZnYXduYTA5VUU?usp=sharing)
-* [Spain](https://drive.google.com/drive/folders/0B13VF_-CUsHPd3FqdVJ2c1ZJaXc?usp=sharing)
+* [Spain](https://drive.google.com/drive/u/1/folders/0B13VF_-CUsHPaURab2pWZEJ5bGc)
 * [Italy](https://drive.google.com/drive/folders/0B13VF_-CUsHPUU85bjRSXzBKNFE?usp=sharing)
 
 ## Example
