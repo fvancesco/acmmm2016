@@ -12,10 +12,10 @@ In this paper we compare the meaning and the usage of emojis across different la
 ## Download Embeddings
 The dimension of the skipgram vectors is 300 with window 6 (vocab min count = 10). We trained the embedding using all the tokens, emojis and punctuation included (links are removed and user anonymized with "@user"). The dataset used was of 20M geolocalized tweets posted from October 2015 to February 2017. In each link you find the lowercased and not lowercased version.
 
-* [USA](https://drive.google.com/drive/folders/0B13VF_-CUsHPd3FqdVJ2c1ZJaXc?usp=sharing)
-* [United Kingdom](https://drive.google.com/drive/folders/0B13VF_-CUsHPZkZnYXduYTA5VUU?usp=sharing)
-* [Spain](https://drive.google.com/drive/u/1/folders/0B13VF_-CUsHPaURab2pWZEJ5bGc)
-* [Italy](https://drive.google.com/drive/folders/0B13VF_-CUsHPUU85bjRSXzBKNFE?usp=sharing)
+* USA ([100](TODO), [300](https://drive.google.com/drive/folders/0B13VF_-CUsHPd3FqdVJ2c1ZJaXc?usp=sharing))
+* United Kingdom ([100](TODO), [300](https://drive.google.com/drive/folders/0B13VF_-CUsHPZkZnYXduYTA5VUU?usp=sharing))
+* Spain ([100](TODO), [300](https://drive.google.com/drive/u/1/folders/0B13VF_-CUsHPaURab2pWZEJ5bGc))
+* Italy ([100](TODO), [300](https://drive.google.com/drive/folders/0B13VF_-CUsHPUU85bjRSXzBKNFE?usp=sharing))
 
 ## Example
 Emojis can be tricky to handle, they are composed of one or more unicode character ([full list](http://unicode.org/emoji/charts/full-emoji-list.html)). This is a simple use case with gensim:
